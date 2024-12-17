@@ -1,0 +1,12 @@
+void internal_clock();
+void init_usart5();
+char interrupt_getchar();
+void enable_tty_interrupt(void);
+int __io_putchar(int c);
+int __io_getchar(void);
+void init_spi1_slow();
+void enable_sdcard();
+void disable_sdcard();
+void init_sdcard_io();
+void sdcard_io_high_speed();
+void init_lcd_spi();
